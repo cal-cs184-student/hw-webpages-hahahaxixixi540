@@ -87,7 +87,35 @@ table {
 
 
 
- <h2>Part 1: Bezier curves with 1D de Casteljau subdivision</h3>
+ 
+<div class="section-title">Overview</div>
+<div class="content-box">
+<p>
+In this homework, we implemented several fundamental geometry processing algorithms used in modern computer graphics.
+The assignment covers Bezier curves, Bezier surfaces, half-edge mesh data structures, and mesh subdivision methods.
+</p>
+
+<p>
+In the first part, we implemented de Casteljau's algorithm to evaluate Bezier curves and extended the same idea to
+evaluate Bezier surfaces using separable 1D subdivision. These exercises helped us understand how complex geometric
+shapes can be constructed from simple linear interpolations.
+</p>
+
+<p>
+In the second part, we worked with triangle meshes using the half-edge data structure. We implemented area-weighted
+vertex normals for smooth shading, edge flipping, and edge splitting operations. These operations are the basic
+topological edits used in mesh processing systems.
+</p>
+
+<p>
+Finally, we implemented Loop subdivision for mesh upsampling. This algorithm refines a mesh by splitting edges and
+updating vertex positions using weighted averaging rules, allowing the mesh to converge toward a smooth limit surface.
+Through this process, we learned how geometry computation and mesh connectivity updates interact in subdivision
+algorithms.
+</p>
+</div>
+
+<h2>Part 1: Bezier curves with 1D de Casteljau subdivision</h3>
  <div class="section-title">Section I: Bezier Curves and Surfaces</div>
 
 <div class="content-box">
